@@ -58,10 +58,10 @@
         <input type="submit" value="Pošalji">
 
     </form> -->
-        <h1>Student Registration Form DOVRŠI ZA DZ!!!</h1>
+        <h1>Student Registration Form</h1>
         <form action="#" method="get">
             <label for="Number">Roll no.:</label>
-            <input type="number" name="Number" id="Number">
+            <input type="number" name="Number" id="Number" min="1">
             <br>
             <label for="name">Student name:</label>
             <input type="text" name="name" id="name" placeholder="First name">
@@ -72,11 +72,11 @@
             <input type="text" name="Father" id="Father">
             <br>
             <label for="date">Date of birth</label>
-            <input type="number" name="day" id="date" maxlength="2">
+            <input type="number" name="day" id="date" min="1" max="31" maxlength="2">
             <span>-</span>
-            <input type="number" name="month" id="date" maxlength="2">
+            <input type="number" name="month" id="date" min="1" max="12" maxlength="2">
             <span>-</span>
-            <input type="number" name="year" id="date" maxlength="4">
+            <input type="number" name="year" id="date" min="1900" max="2025" maxlength="4">
             <label><em>(DD-MM-YYYY)</em></label>
             <br>
             <label for="number">Mobile no.: </label>
@@ -91,15 +91,23 @@
             <input type="password" name="pass" id="pass">
             <br>
             <label for="Gender">Gender: </label>
-            <input type="radio" name="Male" id="Gender">
-            <input type="radio" name="Female" id="Gender">
+            <input type="radio" name="Gender" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" id="Female">
+            <label for="Female">Female</label>
+
             <br>
             <label for="Department">Department: </label>
-            <input type="checkbox" name="CSE" id="">
-            <input type="checkbox" name="IT" id="">
-            <input type="checkbox" name="ECE" id="">
-            <input type="checkbox" name="Civil" id="">
-            <input type="checkbox" name="Mech" id="Department">
+            <input type="checkbox" name="Department" id="CSE">
+            <Label for="CSE">CSE</Label>
+            <input type="checkbox" name="Department" id="IT">
+            <Label for="IT">IT</Label>
+            <input type="checkbox" name="Department" id="ECE">
+            <Label for="ECE">ECE</Label>
+            <input type="checkbox" name="Department" id="Civil">
+            <Label for="Civil">Civil</Label>
+            <input type="checkbox" name="Department" id="Mech">
+            <Label for="Mech">Mech</Label>
             <br>
             <label for="Course">Course: </label>
             <select name="Course" id="Course">
