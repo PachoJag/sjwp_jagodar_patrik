@@ -7,8 +7,19 @@
     <meta name="author" content="Patrik Jagodar">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skriptni Jezici</title>
+    <!-- Internal CSS, 28.10.2025. -->  
+    <style>
+      .drugi{
+        color: red;
+      }
+    </style>
+
+    <!-- External CSS, 28.10.2025. -->
+    <link rel="stylesheet" href="./styles.css">
+
 </head>
 <body>
+    
     <h1>Zadaće:</h1>
     <ol>
         <li><a href="./zadace/zadaca1.html">Zadaća</a></li>
@@ -17,6 +28,17 @@
         <li></li>
         <li></li>
     </ol>
+
+    <h2>Dodavanja CSS-a (3 načina), 28.10.2025.</h2>
+    <ul>
+        <li style="color: blue;">Inline</li>
+        <li class="drugi">Internal</li>
+        <li class="treci">External</li>
+    </ul>
+
+    
+    
+    
     <h2>Životopis 22.10.2025.</h2>
     <a href="./22_10_2025/zivotopis.html"></a>
     <hr>
@@ -48,7 +70,7 @@
     <hr>
 
     <!-- Oblikovanje teksta, 24.9.2025 -->
-        <p>Mi smo <strong>3.E razred.</strong> Idemo u <em>Tehničku školu.</em>  <mark>Razrednik</mark> nam je <sub>prof.</sub> <sup>Benić.</sup> 
+        <p draggable="true">Mi smo <strong>3.E razred.</strong> Idemo u <em>Tehničku školu.</em>  <mark>Razrednik</mark> nam je <sub>prof.</sub> <sup>Benić.</sup> 
             Ima nas <del>24</del> 26 u razredu.</p>
         <pre>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -57,7 +79,7 @@
         </pre>
         <!-- Liste, ul = unordered liste; ol = ordered liste; dl = definiton liste -->
         <h2>Voćni desert u čaši</h2>
-        <h3>Sastojci:</h3>
+        <h3 id="Naslov">Sastojci:</h3>
         <ul type="square">
             <li>230 g kreme za kremšnite</li>
             <li>500 ml hladnog mlijeka</li>

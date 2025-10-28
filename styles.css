@@ -1,0 +1,24 @@
+/*  klase selectori, može biti više klasa s class="treci" */
+.treci{
+    color: green;
+}
+
+/* element selector */
+h2, p{
+    color: blueviolet;
+}
+
+/* id selector, može biti samo jedan (jedinstven) */
+#Naslov{
+    color: chocolate;
+}
+
+/* selector koji se primjenjuje na sve */
+*{
+    background-color: aquamarine;
+}
+
+/* selector s određenim atributom */
+p[draggable="true"]{
+    background-color: antiquewhite;
+}
