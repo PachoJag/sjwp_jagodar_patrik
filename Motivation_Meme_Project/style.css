@@ -1,17 +1,28 @@
+body{
+  background-color: black;
+}
 div{
+    margin-top: 5%;
     margin-left: 25%;
     width: 50%;
 }
 h1{
-    background-color: black;
     color: white;
+    background-color: black;
+    font-family: "Libre Baskerville";
     text-align: center;
     text-transform: uppercase;
+}
+p{
+  color: white;
+  text-align: center;
 }
 .slika{
     border: 5px solid white;
     width: 100%;
+    height: 300px;
 }
+
 
 
 
