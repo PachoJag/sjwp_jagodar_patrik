@@ -1,38 +1,143 @@
-
-.table{
-    border: 2px solid gray;
+body{
+    background-color: lightslategray;
 }
-.def{
+
+table,th,td{
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+}
+th{
     background-color: dodgerblue;
-    color: dodgerblue;
+    color: white;
+    border-color: black;
 }
 .nepar{
-    background-color: gray;
+    background-color: lightgray;
 }
 .par{
     background-color: white;
 }
 
-.screenshot{
-    width: 33%;
-    margin-top: 30px;
-    margin-left: 100px;
-}
-.iceland{
-    width: 100%;
-
-}
-hr{
+/* gore zad1, dole zad2 */
+    div{
+        background-color: white;
+        border-radius: 10px;
+        width: 300px;
+        height: 500px;
+        padding: 10px;
+    }
+    .naslov{
+        font-size: larger;
+    }
+    .drugi{
+        margin-left: 350px;
+        margin-top: -520px;
+    }
+    .treci{
+        margin-left: 700px;
+        margin-top: -520px;
+    }
+    img{
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    hr{
     margin-left: 5%;
     margin-right: 5%;
+    }
+    .hr1{
+        margin-top: 70px;
+    }
+    .hr2{
+        margin-top: 90px;
+    }
+/* end of 2, start of 3*/
+.biryani{
+    margin-top: -520px;
+    margin-left: 350px;
 }
-.untitled{
-    width: 200px;
+.burger{
+    margin-top: -520px;
+    margin-left: 700px;
 }
 .osoba{
     width: 50px;
     height: 50px;
 }
 .boldh{
+    font-size: larger;
     font-weight: bold;
 }
+.bold{
+    font-weight: bold;
+    margin-top: -40px;
+    margin-left: 70px;
+}
+.text{
+    margin-top: 40px;
+}
+.follow{
+    margin-top: -15px;
+    margin-left: 70px;
+}
+
+
+/* end of 3, start of 4*/
+    img{
+        width: 300px;
+        border-radius: 10px;
+    }
+    .lago{
+        font-size: x-large;
+        margin-left: 5px;
+    }
+    .prozor{
+        background-color: white;
+        border-radius: 10px;
+        width: 300px;
+        height: 500px;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    .lake{
+        border: 2px solid gray;
+        color: gray;
+        border-radius: 20px;
+        width: 50px;
+        height: 20px;
+        font-size: 15px;
+        margin-left: 70px;
+        margin-top: -38px;
+        text-align: center;
+        
+    }
+
+    .nature{
+        border: 2px solid gray;
+        color: gray;
+        border-radius: 20px;
+        width: 60px;
+        height: 20px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .lorem{
+        color: gray;
+        width: 300px;
+        margin-left: 5px;
+    }
+
+    .details{
+        margin-left: 100px;
+        margin-top: 30px;
+        color: blue;
+        font-size: 13px;
+        background-color:cornflowerblue;
+        border-radius: 20px;
+        text-align: center;
+        width: 100px;
+        height: 25px;
+        padding: 1px;
+    }
