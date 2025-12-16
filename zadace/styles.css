@@ -1,0 +1,130 @@
+.crno{
+    width: 400px;
+    height: 300px;
+    background-color: black;
+    position: relative;
+}
+.trokutl{
+    width: 0;
+    height: 0;
+    top: 40px;
+    left: 80px;
+    position: absolute;
+    border-right: 100px solid #1a353c;
+    border-top: 125px solid transparent;
+    border-bottom: 100px solid transparent;
+}
+.crnovert{
+    width: 40px;
+    height: 200px;
+    background-color: #1a353c;
+    top: 40px;
+    left: 180px;
+    position: absolute;
+}
+.whitevert{
+    width: 40px;
+    height: 100px;
+    background-color: #FFFFFF;
+    top: 15px;
+    position: absolute;
+}
+.skinvert{
+    width: 40px;
+    height: 100px;
+    background-color: #e0b673;
+    top: 15px;
+    position: absolute;
+}
+.whitecircle{
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 75px;
+    left: -30px;
+    border-radius: 50%;
+}
+.trokutr{
+    width: 0;
+    height: 0;
+    left: 40px;
+    position: absolute;
+    border-left: 100px solid #1a353c;
+    border-top: 125px solid transparent;
+    border-bottom: 100px solid transparent;   
+}
+.bottom{
+    width: 400px;
+    height: 135px;
+    left: -180px;
+    top: 125px;
+    position: absolute;
+    background-color: black;
+}
+.crnohor{
+    width: 200px;
+    height: 135px;
+    background-color: #1a353c;
+    left: 100px;
+    position: absolute;
+}
+
+
+.black{
+    width: 500px;
+    height: 300px;
+    background-color: black;
+    position: relative;
+}
+.white{
+    width: 460px;
+    height: 260px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.slika{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    border-radius: 50%;
+}
+.ime{
+    position: absolute;
+    left: 200px;
+    top: 10px;
+}
+h3{
+    position: absolute;
+    left: 175px;
+    top: 60px;
+}
+.mail{
+    position: absolute;
+    left: 175px;
+    top: 120px;
+}
+.phone{
+    position: absolute;
+    left: 175px;
+    top: 140px;
+}
+.fb{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+    border-radius: 50%;
+}
+.ig{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
