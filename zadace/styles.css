@@ -1,7 +1,7 @@
-.crno{
+.bijelo{
     width: 400px;
     height: 300px;
-    background-color: black;
+    background-color: #FFFFFF;
     position: relative;
 }
 .trokutl{
@@ -60,7 +60,7 @@
     left: -180px;
     top: 125px;
     position: absolute;
-    background-color: black;
+    background-color: #FFFFFF;
 }
 .crnohor{
     width: 200px;
