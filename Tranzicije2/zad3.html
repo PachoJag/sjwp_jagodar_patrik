@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            transition: transform 2s 0s ease;
+        }
+        .whole:hover{
+            transform: rotate(90deg);
+        }
+        .red{
+            background-color: red;
+            position: absolute;
+            transform-origin: left bottom;
+        }
+        .blue{
+            background-color: blue;
+            position: absolute;
+            top: 200px;
+            transform-origin: left top;
+        }
+        .yellow{
+            background-color: yellow;
+            position: absolute;
+            left: 200px;
+            transform-origin: right bottom;
+        }
+        .green{
+            background-color: green;
+            position: absolute;
+            top: 200px;
+            left: 200px;
+            transform-origin: right top;
+        }
+        h2{
+            position: absolute;
+            top: 170px;
+            left: 185px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="whole">
+        <h2>Hi!</h2>
+        <div class="red"></div>
+        <div class="yellow"></div>
+        <div class="blue"></div>
+        <div class="green"></div>
+        
+    </div>
+    
+</body>
+</html>
