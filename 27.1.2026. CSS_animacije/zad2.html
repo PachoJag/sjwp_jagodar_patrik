@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .colors{
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            animation-duration: 4s;
+            animation-name: changes;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-play-state: running;
+            margin: 300px;
+        }
+        @keyframes changes {
+            0%{
+                background-color: red;
+            }
+            33%{
+                background-color: blue;
+            }
+            66%{
+                background-color: green;
+            }
+            100%{
+                background-color: red;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="colors"></div>
+</body>
+</html>
