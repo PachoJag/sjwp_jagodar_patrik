@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .squaretocircle {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            animation: squircle 3s infinite;
+        }
+
+        @keyframes squircle {
+            0% {
+                border-radius: 0%;
+                background-color: red;
+            }
+            50% {
+                border-radius: 50%;
+                background-color: red;
+            }
+            100% {
+                border-radius: 0%;
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="squaretocircle"></div>
+</body>
+</html>
