@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+        }
+        .container .item:nth-child(1){
+            flex-basis: 95%;
+            align-content: baseline;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 0px;
+        }
+        .container .item:nth-child(5){
+            flex-basis: 95%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 0px;
+        }
+        .container .item:nth-child(2){
+            flex-basis: 25%;
+            height: 300px;
+            align-content: flex-start;
+            margin: 0px;
+            background-color: plum;
+        }
+        .container .item:nth-child(3){
+            flex-basis: 45%;
+            height: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            margin: 0px;
+            align-content: center; 
+            background-color: lightpink;   
+        }
+        .container .item:nth-child(4){
+            flex-basis: 25%;
+            height: 300px;
+            align-content: flex-start;
+            font-size: 24px;
+            background-color: plum;
+        }
+        .item{
+            background-color:deepskyblue;
+            border: 5px solid black;
+            padding: 0px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="container">
+            <div class="item"><h1>HEADER</h1></div>
+            <div class="item">
+                <h2>MENU</h2>
+                <h3>Item1</h3>
+                <h3>Item2</h3>
+                <h3>Item3</h3>
+                <h3>Item4</h3>
+                <h3>Item5</Sh3> 
+            </div>
+            <div class="item">
+                <h2>CONTENT</h2>
+                <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum quibusdam veniam suscipit delectus quasi dolorum, placeat ea veritatis, modi sapiente tempore temporibus accusamus aliquam ipsa recusandae a quo voluptatem minus.
+                Non quisquam officiis, dignissimos culpa facere perspiciatis? Natus sed, vero nemo nesciunt facilis ex reprehenderit alias ratione saepe dolor enim a harum accusamus voluptatibus labore eius ducimus consectetur cupiditate molestias.
+                A nulla nisi doloremque quis, rerum quam at suscipit cupiditate et omnis eos dolorum. Quis cum quae perspiciatis iure iste, nesciunt beatae nisi placeat deleniti temporibus veritatis deserunt nostrum odit.</h5>
+            </div>
+            <div class="item"><h2>AD</h2><h2>AD</h2></div>
+            <div class="item"><h1>FOOTER</h1></div>
+        </div>
+    </div>
+</body>
+</html>
