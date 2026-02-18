@@ -12,9 +12,55 @@
       body {
         font-family: "Sono", sans-serif;
       }
+      .pricing-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 40px;
+      }
+      .pricing-plan {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        width: 300px;
+        text-align: center;
+      }
+      .plan-title {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+      .plan-price {
+        font-size: 30px;
+        font-weight: 700;
+        color: #333;
+        margin-bottom: 20px;
+      }
+      .plan-features {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 20px;
+      }
+      .plan-features li {
+        margin-bottom: 10px;
+      }
+      .plan-button {
+        background-color: orange;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
 
-      /* Hint: What can you do with a media query and flexbox? */
+      /* Hint: What can you do with a media query and flexbox?
+      Look up the flex-direction property and try to change the layout of the pricing plans on smaller screens!
+      */
       @media (max-width: 1250px) {
+        .pricing-container {
+          flex-direction: column;
+        }
       }
     </style>
   </head>
