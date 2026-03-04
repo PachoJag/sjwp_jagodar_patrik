@@ -29,7 +29,30 @@
       justify-content: center;
     }
     
-    
+    .item.cowboy {
+      background-color: aqua;
+      /* grid-column: span 2;  */
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+    .item.astronaut {
+      background-color: darkcyan;
+      order: 1;
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+    .item.book {
+      background-color: tomato;
+      opacity: 0.5;
+
+      /* grid-row: span 2; */
+      /* grid-area: 1 / 3 / 3 / 4;  rowstart, columnstart, rowend, columnend */
+      grid-row-start: 1;
+      grid-row-end: 3;
+      grid-column-start: 3;
+      grid-column-end: 4;
+    }
+    /* SVI MORAJU BITI GRID-AREA KAKO BI SE DOGODIO OVERLAP */
   </style>
 </head>
 
