@@ -21,6 +21,8 @@
     */
     .container {
       display: grid;
+      width: 748px;
+      height: 748px;
       grid-template-columns: 320px 198px 153px 50px;
       grid-template-rows: 414px 130px 155px 20px;
       gap: 9px;
@@ -35,8 +37,8 @@
 
     .item.red {
       background-color: #E72F24;
-      grid-column: 0/1;
-      grid-row: 0/1;
+      grid-column: 1/2;
+      grid-row: 1/2;
     }
 
     .item.white1 {
@@ -44,35 +46,45 @@
         /* grid-column: 320px / 518px; */
         /* grid-row: 1 / 414px; */
         grid-column: 2 / 5;
-        grid-row: 0/1;
+        grid-row: 1/2;
     }
     .item.white2 {
       background-color: #F0F1EC;
       grid-column: 1 / 2;
-      grid-row: 1 / 2;
+      grid-row: 2 / 4;
     }
     .item.white3 {
       background-color: #F0F1EC;
-      
+      grid-column: 2 / 4;
+      grid-row: 2 / 4;
     }
     .item.white4 {
       background-color: #F0F1EC;
-      
+      grid-column: 1 / 2;
+      grid-row: 4 / 5;
+    }
+    .item.white5 {
+      background-color: #F0F1EC;
+      grid-column: 4 / 5;
+      grid-row: 3 / 5;
     }
 
     .item.black {
       background-color: #232629;
-      
+      grid-row: 4 / 5;
+      grid-column: 3 / 4;
     }
 
     .item.yellow {
       background-color: #F9D01E;
-      
+      grid-column: 2 / 3;
+      grid-row: 4 / 5;
     }
 
     .item.blue {
       background-color: #004592;
-      
+      grid-column: 4 / 5;
+      grid-row: 2 / 3;
       border-bottom: #000 solid 10px;
     }
 
@@ -87,6 +99,7 @@
     <div class="item white2"></div>
     <div class="item white3"></div>
     <div class="item white4"></div>
+    <div class="item white5"></div>
     <div class="item yellow"></div>
     <div class="item black"></div>
     <div class="item blue"></div>
