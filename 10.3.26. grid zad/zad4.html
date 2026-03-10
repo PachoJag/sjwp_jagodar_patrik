@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- ISTI KAO I 3. ZADATAK -->
+    <style>
+        div {
+            background-color: gray;
+            border-radius: 10%;
+            text-align: center;
+            padding: 20px;
+            font-size: 30px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 10px;
+            background-color: antiquewhite;
+            width: 100vw;
+            height: 100vh;
+            border-radius: 0%;
+        }
+        
+        .i1 {
+            grid-row: 1/2;
+            grid-column: span 2;
+        }
+            
+        .i2 {
+            grid-row: span 2;
+            grid-column: 3/4;
+        }
+        .i3 {
+            grid-row: 2/3;
+            grid-column: 1/2;
+        }
+        .i4 {
+            grid-row: 2/3;
+            grid-column: 2/3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="i1">A</div>
+        <div class="i2">B</div>
+        <div class="i3">C</div>
+        <div class="i4">D</div>
+    </div>
+</body>
+</html>

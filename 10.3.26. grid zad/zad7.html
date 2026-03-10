@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            gap: 10px;
+            background-color: antiquewhite;
+            border-radius: 0%;
+            width: 100vw;
+            height: 100vh;
+        }
+        div {
+            background-color: gray;
+            border-radius: 5%;
+            text-align: center;
+            padding: 20px;
+            font-size: 30px;
+        }
+        .header {
+            grid-row: 1/2;
+            grid-column: span 4;
+        }
+        .sidebar {
+            grid-row: 2/3;
+            grid-column: 1/2;
+        }
+        .content {
+            grid-row: 2/3;
+            grid-column: 2/5;
+        }
+        .sidebar2 {
+            grid-row: 3/4;
+            grid-column: span 4;
+        }
+        .footer {
+            grid-row: 4/5;
+            grid-column: span 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="sidebar">Sidebar</div>
+        <div class="content">Content More Content than we had before so this column is now quite tall. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis porro unde rerum labore tempore dolore adipisci ducimus, maiores, natus qui perspiciatis. Eveniet, cupiditate quasi at earum cumque maiores quod obcaecati.</div>
+        <div class="sidebar2">Sidebar 2</div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+</html>
