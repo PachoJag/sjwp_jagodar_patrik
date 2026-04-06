@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija</title>
+    <style>
+        
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #020617;
+      color: #fff;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      background-color: #03132b;
+      padding: 10px;
+      gap: 10px;
+      margin-bottom: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .navbar a {
+      text-decoration: none;
+      background: #1b2b53;
+      border-bottom: 1px solid #1E293B;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 50px;
+      font-size: 16px;
+      transition: 0.3s;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .navbar a:hover {
+      background-color: #7C3AED;
+      color: #E2E8F0;
+      transform: scale(0.95);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .label{
+      color: white;
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: 50px;
+    }
+
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 26px;
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 0 16px 24px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .card-link {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .card {
+      background-color: #0F172A;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      background-color: #1E293B;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6),
+                0 0 25px rgba(139, 92, 246, 0.4);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .card img {
+      width: 100%;
+      height: 330px;
+      object-fit: cover;
+      display: block;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .card-title {
+      padding: 12px;
+      font-size: 15px;
+      font-weight: 700;
+      color: #E2E8F0;
+      text-align: center;
+      min-height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  
+
+
+
+    </style>
+</head>
+<body>
+  <div class="navbar">
+    <a href="./filmovi.html">Movies</a>
+    <a href="./serije.html">TV Shows</a>
+    <a href="./dokumentarci.html">Documentaries</a>
+  </div>
+
+
+  <p class="label">Movies</p>
+
+
+  <div class="container">
+    <a class="card-link" href="https://www.imdb.com/title/tt0111161/" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg" alt="The Shawshank Redemption">
+        <div class="card-title">The Shawshank Redemption</div>
+      </div>
+    </a>
+    
+    <a class="card-link" href="https://www.imdb.com/title/tt0068646/" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg" alt="The Godfather">
+        <div class="card-title">The Godfather</div>
+      </div>
+    </a>
+
+    <a class="card-link" href="https://www.imdb.com/title/tt0468569/" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg" alt="The Dark Knight">
+        <div class="card-title">The Dark Knight</div>
+      </div>
+    </a>
+
+    <a class="card-link" href="https://www.imdb.com/title/tt0071562/" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg" alt="The Godfather Part II">
+        <div class="card-title">The Godfather Part II</div>
+      </div>
+    </a>
+    
+    <a class="card-link" href="https://www.imdb.com/title/tt0050083" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/2QXLVh32JKaWTjFJU3n8aIxRK9P.jpg" alt="12 Angry Men">
+        <div class="card-title">12 Angry Men</div>
+      </div>
+    </a>
+    
+    <a class="card-link" href="https://www.imdb.com/title/tt0167260/" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg" alt="The Lord of the Rings: The Return of the King">
+        <div class="card-title">The Lord of the Rings: The Return of the King</div>
+      </div>
+    </a>
+    
+    <a class="card-link" href="https://www.imdb.com/title/tt0108052/" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg" alt="Schindler's List">
+        <div class="card-title">Schindler's List</div>
+      </div>
+    </a>
+    <a class="card-link" href="https://www.imdb.com/title/tt0120737/" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg" alt="The Lord of the Rings: The Fellowship of the Ring">
+        <div class="card-title">The Lord of the Rings: The Fellowship of the Ring</div>
+      </div>
+    </a>
+
+    <a class="card-link" href="https://www.imdb.com/title/tt0110912/" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_.jpg" alt="Pulp Fiction">
+        <div class="card-title">Pulp Fiction</div>
+      </div>
+    </a>
+    
+    <a class="card-link" href="https://www.imdb.com/title/tt0060196" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/6tis7qmFzgu1cNhnqAmpbm8Dfq3.jpg" alt="The Good, the Bad and the Ugly">
+        <div class="card-title">The Good, the Bad and the Ugly</div>
+      </div>
+    </a>
+    
+    <a class="card-link" href="https://www.imdb.com/title/tt0167261/" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg" alt="The Lord of the Rings: The Two Towers">
+        <div class="card-title">The Lord of the Rings: The Two Towers</div>
+      </div>
+    </a>
+    
+    <a class="card-link" href="https://www.imdb.com/title/tt0109830/" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg" alt="Forrest Gump">
+        <div class="card-title">Forrest Gump</div>
+      </div>
+    </a>
+    
+    <a class="card-link" href="https://www.imdb.com/title/tt0137523/" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/w500/bptfVGEQuv6vDTIMVCHjJ9Dz8PX.jpg" alt="Fight Club">
+        <div class="card-title">Fight Club</div>
+      </div>
+    </a>
+
+
+    <a class="card-link" href="https://www.imdb.com/title/tt1375666/" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg" alt="Inception">
+        <div class="card-title">Inception</div>
+      </div>
+    </a>
+    
+    <a class="card-link" href="https://www.imdb.com/title/tt0080684/" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/nNAeTmF4CtdSgMDplXTDPOpYzsX.jpg" alt="Star Wars: Episode V - The Empire Strikes Back">
+        <div class="card-title">Star Wars: Episode V - The Empire Strikes Back</div>
+      </div>
+    </a>
+    
+    <a class="card-link" href="https://www.imdb.com/title/tt0133093/" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg" alt="The Matrix">
+        <div class="card-title">The Matrix</div>
+      </div>
+    </a>
+    
+    <a class="card-link" href="https://www.imdb.com/title/tt0099685" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg" alt="Goodfellas">
+        <div class="card-title">Goodfellas</div>
+      </div>
+    </a>
+
+    <a class="card-link" href="https://www.imdb.com/title/tt0816692/" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkshzpfsh566sD5Im2qzFxaxfNFFqSQAFZgg&amp;s" alt="Interstellar">
+        <div class="card-title">Interstellar</div>
+      </div>
+    </a>
+    <a class="card-link" href="https://www.imdb.com/title/tt0073486" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/kjWsMh72V6d8KRLV4EOoSJLT1H7.jpg" alt="One Flew Over the Cuckoo's Nest">
+        <div class="card-title">One Flew Over the Cuckoo's Nest</div>
+      </div>
+    </a>
+    <a class="card-link" href="https://www.imdb.com/title/tt0114369/" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/w500/6yoghtyTpznpBik8EngEmJskVUO.jpg" alt="Se7en">
+        <div class="card-title">Se7en</div>
+      </div>
+    </a>
+  </div>
+</body>
+</html>
