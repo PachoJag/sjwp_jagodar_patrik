@@ -9,39 +9,41 @@
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
-      background-color: #020617;
+      background-color:darkcyan;
       color: #fff;
     }
 
     .navbar {
       display: flex;
       justify-content: center;
-      background-color: #03132b;
-      padding: 10px;
-      gap: 10px;
+      background-color:lightseagreen;
+      padding: 15px;
+      gap: 15px;
       margin-bottom: 30px;
       font-family: Arial, Helvetica, sans-serif;
     }
     .navbar a {
       text-decoration: none;
-      background: #1b2b53;
-      border-bottom: 1px solid #1E293B;
+      background: mediumturquoise;
+      border-bottom: 1px solid darkslategray;
       color: #fff;
       padding: 10px 20px;
       border-radius: 50px;
+      width: 125px;
+      text-align: center;
       font-size: 16px;
       transition: 0.3s;
       font-family: Arial, Helvetica, sans-serif;
     }
     .navbar a:hover {
-      background-color: #7C3AED;
+      background-color: mediumaquamarine;
       color: #E2E8F0;
       transform: scale(0.95);
       font-family: Arial, Helvetica, sans-serif;
     }
 
     .label{
-      color: white;
+      color: azure;
       font-size: 30px;
       font-family: Arial, Helvetica, sans-serif;
       margin-left: 50px;
@@ -50,9 +52,9 @@
 
     .container {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 26px;
-      max-width: 1300px;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      gap: 20px;
+      max-width: 1150px;
       margin: 0 auto;
       padding: 0 16px 24px;
       font-family: Arial, Helvetica, sans-serif;
@@ -64,8 +66,8 @@
       font-family: Arial, Helvetica, sans-serif;
     }
     .card {
-      background-color: #0F172A;
-      border-radius: 12px;
+      background-color: darkturquoise;
+      border-radius: 20px;
       overflow: hidden;
       box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
       transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -73,23 +75,23 @@
     }
     .card:hover {
       transform: translateY(-8px);
-      background-color: #1E293B;
+      background-color:cadetblue;
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6),
                 0 0 25px rgba(139, 92, 246, 0.4);
       font-family: Arial, Helvetica, sans-serif;
     }
     .card img {
       width: 100%;
-      height: 330px;
+      height: 300px;
       object-fit: cover;
       display: block;
       font-family: Arial, Helvetica, sans-serif;
     }
     .card-title {
-      padding: 12px;
-      font-size: 15px;
-      font-weight: 700;
-      color: #E2E8F0;
+      padding: 10px;
+      font-size: 16px;
+      font-weight: 600;
+      color: azure;
       text-align: center;
       min-height: 48px;
       display: flex;
@@ -97,10 +99,6 @@
       justify-content: center;
       font-family: Arial, Helvetica, sans-serif;
     }
-  
-
-
-
     </style>
 </head>
 <body>
@@ -109,32 +107,27 @@
     <a href="./serije.html">TV Shows</a>
     <a href="./dokumentarci.html">Documentaries</a>
   </div>
-
-
-  <p class="label">Documentaries</p>
-
-
   <div class="container">
-    <a class="card-link" href="https://www.imdb.com/title/tt0310793/" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://preview.redd.it/bowling-for-columbine-2002-v0-hufvm1z8qvnc1.jpeg?auto=webp&amp;s=aa2fa1a62cdd9247e0989221ca62d67c0f269da8" alt="Bowling for Columbine"><div class="card-title">Bowling for Columbine</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt0361596/" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMjAyODU1NzM0NF5BMl5BanBnXkFtZTcwNjI1MjYyMQ@@._V1_.jpg" alt="Fahrenheit 9/11"><div class="card-title">Fahrenheit 9/11</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt11464826/" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://m.media-amazon.com/images/M/MV5BNGQyY2E1M2EtZTkzNy00YjYyLWFjMGQtNTI1OGE4Yjc4MTZiXkEyXkFqcGc@._V1_.jpg" alt="The Social Dilemma"><div class="card-title">The Social Dilemma</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt1645089/" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMTQ3MjkyODA2Nl5BMl5BanBnXkFtZTcwNzQxMTU4Mw@@._V1_.jpg" alt="Inside Job"><div class="card-title">Inside Job</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt1424432/" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMTc5MTUzOTAxMl5BMl5BanBnXkFtZTcwODQzMjg3NA@@._V1_.jpg" alt="Senna"><div class="card-title">Senna</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt1155592/" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMTMxNTk3NDY1NV5BMl5BanBnXkFtZTcwNDk0ODg3MQ@@._V1_.jpg" alt="Man on Wire"><div class="card-title">Man on Wire</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt2125608/" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMjA5Nzc2NDUyN15BMl5BanBnXkFtZTcwNjQwMjc5Nw@@._V1_FMjpg_UX1000_.jpg" alt="Searching for Sugar Man"><div class="card-title">Searching for Sugar Man</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt1313104/" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMTc3Nzg2NzM5MF5BMl5BanBnXkFtZTcwMTYwMjU2Mg@@._V1_FMjpg_UX1000_.jpg" alt="The Cove"><div class="card-title">The Cove</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt2545118/" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://upload.wikimedia.org/wikipedia/en/b/bd/BLACKFISH_Film_Poster.jpg" alt="Blackfish"><div class="card-title">Blackfish</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt1587707/" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMjE2NTg1NDM4Ml5BMl5BanBnXkFtZTcwMzMxOTkyMw@@._V1_.jpg" alt="Exit Through the Gift Shop"><div class="card-title">Exit Through the Gift Shop</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt1152758/" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://upload.wikimedia.org/wikipedia/en/f/f5/DearZacharyTheatricalPoster.jpg" alt="Dear Zachary: A Letter to a Son About His Father"><div class="card-title">Dear Zachary: A Letter to a Son About His Father</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt2375605/" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://m.media-amazon.com/images/M/MV5BZDg1NDMwMGQtMmFkZS00NTQwLTkxYjktMTlhNjI2NzNlYTQ1XkEyXkFqcGc@._V1_.jpg" alt="The Act of Killing"><div class="card-title">The Act of Killing</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt0427312/" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://m.media-amazon.com/images/M/MV5BODc3NTAxMTY1MV5BMl5BanBnXkFtZTcwOTE4NjUzMw@@._V1_FMjpg_UX1000_.jpg" alt="Grizzly Man"><div class="card-title">Grizzly Man</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt1286537/" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://m.media-amazon.com/images/M/MV5BNmQyY2VlNTYtYjYzNi00YmY3LTgzNTktOWJkZmNlMmFlNWQyXkEyXkFqcGc@._V1_.jpg" alt="Food, Inc."><div class="card-title">Food, Inc.</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt0390521/" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMTYyOTk4MjIxOF5BMl5BanBnXkFtZTcwMzk1NTUyMQ@@._V1_.jpg" alt="Super Size Me"><div class="card-title">Super Size Me</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt0096257/" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMDZmNzUwOTYtNzM5Ni00YjZhLTlmODAtNTJiZmM1NjlmMTdkXkEyXkFqcGc@._V1_.jpg" alt="The Thin Blue Line"><div class="card-title">The Thin Blue Line</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt0110057/" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://upload.wikimedia.org/wikipedia/en/4/4f/Hoop_dreamsposter.jpg" alt="Hoop Dreams"><div class="card-title">Hoop Dreams</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt0118147/" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR37O8qxLsPCQbtR2snlguQozv20OUHT0bOSA&amp;s" alt="When We Were Kings"><div class="card-title">When We Were Kings</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt5275892/" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://m.media-amazon.com/images/M/MV5BZGY0NWIxNTEtYzVhOS00ZWY1LTkyNTctODBkMDBlMjI0YTI4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="O.J.: Made in America"><div class="card-title">O.J.: Made in America</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt24082438/" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://m.media-amazon.com/images/M/MV5BZmY2ODlmNmQtODQ2MS00OTlkLWIyNTEtNzhhNTEyNjNjMjdjXkEyXkFqcGc@._V1_.jpg" alt="20 Days in Mariupol"><div class="card-title">20 Days in Mariupol</div></div></a>
+    <a class="card-link" href="https://www.imdb.com/title/tt5491994" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/tUKomxy50suT4MyxjYfOJDkZUq3.jpg" alt="Planet Earth II"><div class="card-title">Planet Earth II</div></div></a>
+    <a class="card-link" href="https://www.imdb.com/title/tt0795176" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/zdDDYjI2cPLO2yz7pLnI4MOig5r.jpg" alt="Planet Earth"><div class="card-title">Planet Earth</div></div></a>
+    <a class="card-link" href="https://www.imdb.com/title/tt6769208" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/qeaDwSLPpblr3YrDACwNIcjCCQj.jpg" alt="Blue Planet II"><div class="card-title">Blue Planet II</div></div></a>
+    <a class="card-link" href="https://www.imdb.com/title/tt2395695" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/cNj8BDXmRolOwbt7QeA0ax4VBNq.jpg" alt="Cosmos: A Spacetime Odyssey"><div class="card-title">Cosmos: A Spacetime Odyssey</div></div></a>
+    <a class="card-link" href="https://www.imdb.com/title/tt0081846" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/nOGArjE0WMkzY2GW1taJm8l9gxD.jpg" alt="Carl Sagan's Cosmos"><div class="card-title">Carl Sagan's Cosmos</div></div></a>
+    <a class="card-link" href="https://www.imdb.com/title/tt9253866" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/wRSnArnQBmeUYb5GWDU595bGsBr.jpg" alt="Our Planet"><div class="card-title">Our Planet</div></div></a>
+    <a class="card-link" href="https://www.imdb.com/title/tt0071075" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/bWdwEYQQEsz9HuXy5m95z95BYQM.jpg" alt="The World at War"><div class="card-title">The World at War</div></div></a>
+    <a class="card-link" href="https://www.imdb.com/title/tt1533395" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/9dVHGMYfI6T6p07UHfYVUk1Wzit.jpg" alt="Life"><div class="card-title">Life</div></div></a>
+    <a class="card-link" href="https://www.imdb.com/title/tt8420184" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/oVf4xGGbDtwVHiKn8uTuSriY7PH.jpg" alt="The Last Dance"><div class="card-title">The Last Dance</div></div></a>
+    <a class="card-link" href="https://www.imdb.com/title/tt1877514" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/tKt4lYTA4YmfBUH5Vtd7qqgqGBW.jpg" alt="The Vietnam War"><div class="card-title">The Vietnam War</div></div></a>
+    <a class="card-link" href="https://www.imdb.com/title/tt0296310" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/jiedd3kJ2Xr4y05CdFCbu0vQPiD.jpg" alt="The Blue Planet"><div class="card-title">The Blue Planet</div></div></a>
+    <a class="card-link" href="https://www.imdb.com/title/tt10541088" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/yKc3FqwD2eanWBUwqcRH7bChE3V.jpg" alt="Clarkson's Farm"><div class="card-title">Clarkson's Farm</div></div></a>
+    <a class="card-link" href="https://www.imdb.com/title/tt2092588" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/mD2SDmB4iTvWlFH1izphQ80GfKq.jpg" alt="Frozen Planet"><div class="card-title">Frozen Planet</div></div></a>
+    <a class="card-link" href="https://www.imdb.com/title/tt0111893" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/3qS8XamtOsaikmIwBmdY9qKX5mo.jpg" alt="Food, Inc."><div class="card-title">The Beatles: Anthology</div></div></a>
+    <a class="card-link" href="https://www.imdb.com/title/tt1806234" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/bjhP5yIeyWMRMxJdLjBuiIf255X.jpg" alt="Human Planet"><div class="card-title">Human Planet</div></div></a>
+    <a class="card-link" href="https://www.imdb.com/title/tt0098769" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/qs6J3T0mfAlmoOOUt0B2d4zd6je.jpg" alt="The Civil War"><div class="card-title">The Civil War</div></div></a>
+    <a class="card-link" href="https://www.imdb.com/title/tt9735318" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/8yqUZCA4d4jjLkswQeWlc8CQyzo.jpg" alt="The Beatles: Get Back"><div class="card-title">The Beatles: Get Back</div></div></a>
+    <a class="card-link" href="https://www.imdb.com/title/tt1508238" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/e5c13oeudjkOawjVJwHMQKUZzrF.jpg" alt="Apocalypse: The Second World War"><div class="card-title">Apocalypse: The Second World War</div></div></a>
+    <a class="card-link" href="https://www.imdb.com/title/tt2571774" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/mXCtBCzDh4SdprVhYRk1VR0hKMR.jpg" alt="Africa"><div class="card-title">Africa</div></div></a>
+    <a class="card-link" href="https://www.imdb.com/title/tt1628033" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/ffvMv9SHMD7yPg9VV7TczQZrPSQ.jpg" alt="Top Gear"><div class="card-title">Top Gear</div></div></a>
   </div>
 </body>
 </html>

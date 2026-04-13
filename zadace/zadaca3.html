@@ -9,39 +9,41 @@
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
-      background-color: #020617;
+      background-color:darkcyan;
       color: #fff;
     }
 
     .navbar {
       display: flex;
       justify-content: center;
-      background-color: #03132b;
-      padding: 10px;
-      gap: 10px;
+      background-color:lightseagreen;
+      padding: 15px;
+      gap: 15px;
       margin-bottom: 30px;
       font-family: Arial, Helvetica, sans-serif;
     }
     .navbar a {
       text-decoration: none;
-      background: #1b2b53;
-      border-bottom: 1px solid #1E293B;
+      background: mediumturquoise;
+      border-bottom: 1px solid darkslategray;
       color: #fff;
       padding: 10px 20px;
       border-radius: 50px;
+      text-align: center;
+      width: 125px;
       font-size: 16px;
       transition: 0.3s;
       font-family: Arial, Helvetica, sans-serif;
     }
     .navbar a:hover {
-      background-color: #7C3AED;
+      background-color: mediumaquamarine;
       color: #E2E8F0;
       transform: scale(0.95);
       font-family: Arial, Helvetica, sans-serif;
     }
 
     .label{
-      color: white;
+      color: azure;
       font-size: 30px;
       font-family: Arial, Helvetica, sans-serif;
       margin-left: 50px;
@@ -50,9 +52,9 @@
 
     .container {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 26px;
-      max-width: 1300px;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      gap: 20px;
+      max-width: 1150px;
       margin: 0 auto;
       padding: 0 16px 24px;
       font-family: Arial, Helvetica, sans-serif;
@@ -64,8 +66,8 @@
       font-family: Arial, Helvetica, sans-serif;
     }
     .card {
-      background-color: #0F172A;
-      border-radius: 12px;
+      background-color: darkturquoise;
+      border-radius: 20px;
       overflow: hidden;
       box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
       transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -73,23 +75,23 @@
     }
     .card:hover {
       transform: translateY(-8px);
-      background-color: #1E293B;
+      background-color:cadetblue;
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6),
                 0 0 25px rgba(139, 92, 246, 0.4);
       font-family: Arial, Helvetica, sans-serif;
     }
     .card img {
       width: 100%;
-      height: 330px;
+      height: 300px;
       object-fit: cover;
       display: block;
       font-family: Arial, Helvetica, sans-serif;
     }
     .card-title {
-      padding: 12px;
-      font-size: 15px;
-      font-weight: 700;
-      color: #E2E8F0;
+      padding: 10px;
+      font-size: 16px;
+      font-weight: 600;
+      color: azure;
       text-align: center;
       min-height: 48px;
       display: flex;
@@ -97,10 +99,6 @@
       justify-content: center;
       font-family: Arial, Helvetica, sans-serif;
     }
-  
-
-
-
     </style>
 </head>
 <body>
