@@ -10,7 +10,7 @@
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
       background-color:darkcyan;
-      color: #fff;
+      color: white;
     }
 
     .navbar {
@@ -26,7 +26,7 @@
       text-decoration: none;
       background: mediumturquoise;
       border-bottom: 1px solid darkslategray;
-      color: #fff;
+      color: white;
       padding: 10px 20px;
       border-radius: 50px;
       width: 125px;
@@ -37,7 +37,7 @@
     }
     .navbar a:hover {
       background-color: mediumaquamarine;
-      color: #E2E8F0;
+      color: navajowhite;
       transform: scale(0.95);
       font-family: Arial, Helvetica, sans-serif;
     }
@@ -52,7 +52,7 @@
 
     .container {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 20px;
       max-width: 1150px;
       margin: 0 auto;
@@ -69,15 +69,14 @@
       background-color: darkturquoise;
       border-radius: 20px;
       overflow: hidden;
-      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
       transition: transform 0.2s ease, box-shadow 0.2s ease;
       font-family: Arial, Helvetica, sans-serif;
     }
     .card:hover {
       transform: translateY(-8px);
       background-color:cadetblue;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6),
-                0 0 25px rgba(139, 92, 246, 0.4);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
       font-family: Arial, Helvetica, sans-serif;
     }
     .card img {
@@ -108,26 +107,125 @@
     <a href="./dokumentarci.html">Documentaries</a>
   </div>
   <div class="container">
-    <a class="card-link" href="https://www.imdb.com/title/tt5491994" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/tUKomxy50suT4MyxjYfOJDkZUq3.jpg" alt="Planet Earth II"><div class="card-title">Planet Earth II</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt0795176" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/zdDDYjI2cPLO2yz7pLnI4MOig5r.jpg" alt="Planet Earth"><div class="card-title">Planet Earth</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt6769208" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/qeaDwSLPpblr3YrDACwNIcjCCQj.jpg" alt="Blue Planet II"><div class="card-title">Blue Planet II</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt2395695" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/cNj8BDXmRolOwbt7QeA0ax4VBNq.jpg" alt="Cosmos: A Spacetime Odyssey"><div class="card-title">Cosmos: A Spacetime Odyssey</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt0081846" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/nOGArjE0WMkzY2GW1taJm8l9gxD.jpg" alt="Carl Sagan's Cosmos"><div class="card-title">Carl Sagan's Cosmos</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt9253866" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/wRSnArnQBmeUYb5GWDU595bGsBr.jpg" alt="Our Planet"><div class="card-title">Our Planet</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt0071075" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/bWdwEYQQEsz9HuXy5m95z95BYQM.jpg" alt="The World at War"><div class="card-title">The World at War</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt1533395" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/9dVHGMYfI6T6p07UHfYVUk1Wzit.jpg" alt="Life"><div class="card-title">Life</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt8420184" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/oVf4xGGbDtwVHiKn8uTuSriY7PH.jpg" alt="The Last Dance"><div class="card-title">The Last Dance</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt1877514" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/tKt4lYTA4YmfBUH5Vtd7qqgqGBW.jpg" alt="The Vietnam War"><div class="card-title">The Vietnam War</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt0296310" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/jiedd3kJ2Xr4y05CdFCbu0vQPiD.jpg" alt="The Blue Planet"><div class="card-title">The Blue Planet</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt10541088" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/yKc3FqwD2eanWBUwqcRH7bChE3V.jpg" alt="Clarkson's Farm"><div class="card-title">Clarkson's Farm</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt2092588" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/mD2SDmB4iTvWlFH1izphQ80GfKq.jpg" alt="Frozen Planet"><div class="card-title">Frozen Planet</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt0111893" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/3qS8XamtOsaikmIwBmdY9qKX5mo.jpg" alt="Food, Inc."><div class="card-title">The Beatles: Anthology</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt1806234" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/bjhP5yIeyWMRMxJdLjBuiIf255X.jpg" alt="Human Planet"><div class="card-title">Human Planet</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt0098769" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/qs6J3T0mfAlmoOOUt0B2d4zd6je.jpg" alt="The Civil War"><div class="card-title">The Civil War</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt9735318" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/8yqUZCA4d4jjLkswQeWlc8CQyzo.jpg" alt="The Beatles: Get Back"><div class="card-title">The Beatles: Get Back</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt1508238" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/e5c13oeudjkOawjVJwHMQKUZzrF.jpg" alt="Apocalypse: The Second World War"><div class="card-title">Apocalypse: The Second World War</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt2571774" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/mXCtBCzDh4SdprVhYRk1VR0hKMR.jpg" alt="Africa"><div class="card-title">Africa</div></div></a>
-    <a class="card-link" href="https://www.imdb.com/title/tt1628033" target="_blank" rel="noopener noreferrer"><div class="card"><img src="https://image.tmdb.org/t/p/original/ffvMv9SHMD7yPg9VV7TczQZrPSQ.jpg" alt="Top Gear"><div class="card-title">Top Gear</div></div></a>
+    <a class="card-link" href="https://www.imdb.com/title/tt5491994" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/tUKomxy50suT4MyxjYfOJDkZUq3.jpg" alt="Planet Earth II">
+        <div class="card-title">Planet Earth II</div>
+      </div>
+    </a>
+    <a class="card-link" href="https://www.imdb.com/title/tt0795176" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/zdDDYjI2cPLO2yz7pLnI4MOig5r.jpg" alt="Planet Earth">
+        <div class="card-title">Planet Earth</div>
+      </div>
+    </a>
+    <a class="card-link" href="https://www.imdb.com/title/tt6769208" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/qeaDwSLPpblr3YrDACwNIcjCCQj.jpg" alt="Blue Planet II">
+        <div class="card-title">Blue Planet II</div>
+      </div>
+    </a>
+    <a class="card-link" href="https://www.imdb.com/title/tt2395695" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/cNj8BDXmRolOwbt7QeA0ax4VBNq.jpg" alt="Cosmos: A Spacetime Odyssey">
+        <div class="card-title">Cosmos: A Spacetime Odyssey</div>
+      </div>
+    </a>
+    <a class="card-link" href="https://www.imdb.com/title/tt0081846" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/nOGArjE0WMkzY2GW1taJm8l9gxD.jpg" alt="Carl Sagan's Cosmos">
+        <div class="card-title">Carl Sagan's Cosmos</div>
+      </div>
+    </a>
+    <a class="card-link" href="https://www.imdb.com/title/tt9253866" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/wRSnArnQBmeUYb5GWDU595bGsBr.jpg" alt="Our Planet">
+        <div class="card-title">Our Planet</div>
+      </div>
+    </a>
+    <a class="card-link" href="https://www.imdb.com/title/tt0071075" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/bWdwEYQQEsz9HuXy5m95z95BYQM.jpg" alt="The World at War">
+        <div class="card-title">The World at War</div>
+      </div>
+    </a>
+    <a class="card-link" href="https://www.imdb.com/title/tt1533395" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/9dVHGMYfI6T6p07UHfYVUk1Wzit.jpg" alt="Life">
+        <div class="card-title">Life</div>
+      </div>
+    </a>
+    <a class="card-link" href="https://www.imdb.com/title/tt8420184" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/oVf4xGGbDtwVHiKn8uTuSriY7PH.jpg" alt="The Last Dance">
+        <div class="card-title">The Last Dance</div>
+      </div>
+    </a>
+    <a class="card-link" href="https://www.imdb.com/title/tt1877514" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/tKt4lYTA4YmfBUH5Vtd7qqgqGBW.jpg" alt="The Vietnam War">
+        <div class="card-title">The Vietnam War</div>
+      </div>
+    </a>
+    <a class="card-link" href="https://www.imdb.com/title/tt0296310" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/jiedd3kJ2Xr4y05CdFCbu0vQPiD.jpg" alt="The Blue Planet">
+        <div class="card-title">The Blue Planet</div>
+      </div>
+    </a>
+    <a class="card-link" href="https://www.imdb.com/title/tt10541088" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/yKc3FqwD2eanWBUwqcRH7bChE3V.jpg" alt="Clarkson's Farm">
+        <div class="card-title">Clarkson's Farm</div>
+      </div>
+    </a>
+    <a class="card-link" href="https://www.imdb.com/title/tt2092588" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/mD2SDmB4iTvWlFH1izphQ80GfKq.jpg" alt="Frozen Planet">
+        <div class="card-title">Frozen Planet</div>
+      </div>
+    </a>
+    <a class="card-link" href="https://www.imdb.com/title/tt0111893" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/3qS8XamtOsaikmIwBmdY9qKX5mo.jpg" alt="The Beatles: Anthology">
+        <div class="card-title">The Beatles: Anthology</div>
+      </div>
+    </a>
+    <a class="card-link" href="https://www.imdb.com/title/tt1806234" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/bjhP5yIeyWMRMxJdLjBuiIf255X.jpg" alt="Human Planet">
+        <div class="card-title">Human Planet</div>
+      </div>
+    <a class="card-link" href="https://www.imdb.com/title/tt0098769" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/qs6J3T0mfAlmoOOUt0B2d4zd6je.jpg" alt="The Civil War">
+        <div class="card-title">The Civil War</div>
+      </div>
+    </a>
+    <a class="card-link" href="https://www.imdb.com/title/tt9735318" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/8yqUZCA4d4jjLkswQeWlc8CQyzo.jpg" alt="The Beatles: Get Back">
+        <div class="card-title">The Beatles: Get Back</div>
+      </div>
+    </a>
+    <a class="card-link" href="https://www.imdb.com/title/tt1508238" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/e5c13oeudjkOawjVJwHMQKUZzrF.jpg" alt="Apocalypse: The Second World War">
+        <div class="card-title">Apocalypse: The Second World War</div>
+      </div>
+    </a>
+    <a class="card-link" href="https://www.imdb.com/title/tt2571774" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/mXCtBCzDh4SdprVhYRk1VR0hKMR.jpg" alt="Africa">
+        <div class="card-title">Africa</div>
+      </div>
+    </a>
+    <a class="card-link" href="https://www.imdb.com/title/tt1628033" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <img src="https://image.tmdb.org/t/p/original/ffvMv9SHMD7yPg9VV7TczQZrPSQ.jpg" alt="Top Gear">
+        <div class="card-title">Top Gear</div>
+      </div>
+    </a>
   </div>
 </body>
 </html>
