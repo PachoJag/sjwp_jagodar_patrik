@@ -64,6 +64,7 @@
       color: inherit;
       display: block;
       font-family: Arial, Helvetica, sans-serif;
+      -webkit-tap-highlight-color: transparent;
     }
     .card {
       background-color: darkturquoise;
@@ -98,6 +99,97 @@
       justify-content: center;
       font-family: Arial, Helvetica, sans-serif;
     }
+
+   @media (max-width: 420px){
+        
+    .navbar {
+      display: flex;
+      justify-content: center;
+      background-color:lightseagreen;
+      padding: 5px;
+      gap: 5px;
+      margin-bottom: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .navbar a {
+      text-decoration: none;
+      background: mediumturquoise;
+      border-bottom: 1px solid darkslategray;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 50px;
+      text-align: center;
+      width: 50px;
+      font-size: 8px;
+      transition: 0.3s;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .navbar a:hover {
+      background-color: mediumaquamarine;
+      color: #E2E8F0;
+      transform: scale(0.9);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .label{
+      color: azure;
+      font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: 20px;
+    }
+
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 10px;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 8px 12px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .card-link {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .card {
+      background-color: darkturquoise;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      background-color:cadetblue;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6),
+                0 0 25px rgba(139, 92, 246, 0.4);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      display: block;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .card-title {
+      padding: 10px;
+      font-size: 12px;
+      font-weight: 600;
+      color: azure;
+      text-align: center;
+      min-height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    }
+
     </style>
 </head>
 <body>
@@ -106,6 +198,7 @@
     <a href="./serije.html">TV Shows</a>
     <a href="./dokumentarci.html">Documentaries</a>
   </div>
+  
   <div class="container">
     <a class="card-link" href="https://www.imdb.com/title/tt5491994" target="_blank" rel="noopener noreferrer">
       <div class="card">
