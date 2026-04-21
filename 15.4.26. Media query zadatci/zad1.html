@@ -30,7 +30,7 @@
             .container > .gray1, .container > .gray2, .container > .gray3, .container > .gray4 {
                 background-color: gray;
             }
-        @media (max-width: 320px) {
+        @media (max-width: 767px) {
             .container {
                 display: grid;
                 grid-template-columns: 1fr;
@@ -40,11 +40,11 @@
             
 
         }
-        @media (min-width: 321px) and (max-width: 768px) {
+        @media (min-width: 768px) and (max-width: 1023px) {
             .container {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
-                grid-template-rows: repeat(10, 1fr);
+                grid-template-rows: repeat(9, 1fr);
             }
             .orange1 {
                 grid-column: 1 / 3;
@@ -89,10 +89,10 @@
             
 
         }
-        @media (min-width: 769px) and (max-width: 1024px) {
+        @media (min-width: 1024px) {
             .container {
                 display: grid;
-                grid-template-columns: repeat(13, 1fr);
+                grid-template-columns: repeat(12, 1fr);
                 grid-template-rows: repeat(7, 1fr);
             }
             .orange1 {
