@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100%;
+            height: 100vh;
+        }
+        .container > div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 2rem;
+                color: black;
+                margin: 5px;
+            }
+        .korisnici{
+            background-color: darkcyan;
+        }
+        .prodaja{
+            background-color: mediumseagreen;
+        }
+        .poruke{
+            background-color: blanchedalmond;
+        }
+        .konverzija{
+            background-color: magenta;
+        }
+        .zadaci{
+            background-color: deeppink;
+        }
+        @media(max-width: 767px){
+            .container {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(5, 1fr);
+                gap: 5px;
+            }
+        }
+        @media (min-width: 768px) and (max-width: 1023px) {
+            .container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                gap: 5px;
+            }
+            .korisnici{
+                grid-column: 1 / 2;
+                grid-row: 1 / 2;
+            }
+            .prodaja{
+                grid-column: 2 / 3;
+                grid-row: 1 / 2;
+            }
+            .poruke{
+                grid-column: 1 / 2;
+                grid-row: 2 / 3;
+            }
+            .konverzija{
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+            }
+            .zadaci{
+                grid-column: 1 / 3;
+                grid-row: 3 / 4;
+            }
+        }
+        @media (min-width: 1024px){
+            .container{
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                grid-template-rows: repeat(1, 1fr);
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="korisnici">Korisnici</div>
+        <div class="prodaja">Prodaja</div>
+        <div class="poruke">Poruke</div>
+        <div class="konverzija">Konverzija</div>
+        <div class="zadaci">Zadaci</div>
+    </div>
+</body>
+</html>
