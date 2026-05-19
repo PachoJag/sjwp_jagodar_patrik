@@ -14,7 +14,12 @@
 <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg" id="mainNav">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="#">Patrik Jagodar</a>
+      <div
+                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient">
+                <img src="../Bootstrap(13.05.2026.)/briefcase.svg" alt="Briefcase" width="30" height="30">
+            </div>
+      
+      <span class="navbar-brand fw-bold" style="margin-left: 10px;">Patrik Jagodar</span>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -24,6 +29,7 @@
           <li class="nav-item"><a class="nav-link" href="#skills">Vještine</a></li>
           <li class="nav-item"><a class="nav-link" href="#hobbies">Hobiji</a></li>
           <li class="nav-item"><a class="nav-link" href="#tasks">Zadaće</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
         </ul>
       </div>
     </div>
@@ -35,7 +41,7 @@
       <div class="row align-items-center g-5">
         <div class="col-lg-7">
           <h1 class="hero-title">Moja Osobna Web Stranica</h1>
-          <p class="hero-sub">Računalni tehničar Tehničke škole Slavonski Brod</p>
+          <p class="hero-sub">Patrik Jagodar, računalni tehničar Tehničke škole Slavonski Brod</p>
           <div class="d-flex gap-3 flex-wrap">
             <a href="#about" class="btn btn-primary btn-lg px-4">Više o meni</a>
             <a href="#tasks" class="btn btn-outline-secondary btn-lg px-4">Moje zadaće</a>
@@ -59,7 +65,7 @@
         </div>
         <div class="feature col">
             <h3 class="fs-2 text-body-emphasis">Vještine</h3>
-            <p>- HTML<br>- CSS<br>- Bootstrap<br>- MySQL<br>- Alati: GitHub, VS Code, Figma</p> 
+            <p>- HTML<br>- CSS<br>- Bootstrap<br>- MS-SQL<br>- Alati: GitHub, VS Code, Figma</p> 
         </div>
         <div class="feature col">
             <h3 class="fs-2 text-body-emphasis">Mjesto stanovanja</h3>
@@ -70,39 +76,36 @@
   
  <br><br><br>
   <!-- HOBBIES -->
-  <section class="section-pad" id="hobbies">
-    <div class="container">
-      <div class="text-center mb-5">
-        <h2 class="section-title">Moji hobiji</h2>
+<section class="section-pad" id="hobbies">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="section-title">Moji hobiji</h2>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+      <div class="col-lg-3 col-sm-6">
+        <div class="hobby-card text-center">
+          <h5>Gaming</h5>
+          <p>Igram videoigre kako bih se opustio. Igram više single-player nego multiplayer.</p>
+        </div>
       </div>
-      <div class="row g-4">
-        <div class="col-lg-3 col-sm-6">
-          <div class="hobby-card">
-            <h5>1</h5>
-            <p>a</p>
-          </div>
+
+      <div class="col-lg-3 col-sm-6">
+        <div class="hobby-card text-center">
+          <h5>Formula 1</h5>
+          <p>Volim gledati Formulu 1 zbog brzine i kompleksnosti bolida, te vještina vozača.</p>
         </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="hobby-card">
-            <h5>2</h5>
-            <p>b</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="hobby-card">
-            <h5>3</h5>
-            <p>c</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="hobby-card">
-            <h5>4</h5>
-            <p>d</p>
-          </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6">
+        <div class="hobby-card text-center">
+          <h5>Šah</h5>
+          <p>Najviše volim igrati protiv ljudi koji ne igraju previše profesionalno zbog raznih situacija.</p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
  <br><br><br><br><br>
   <!-- TASKS -->
   <section class="section-pad bg-light-custom" id="tasks">
@@ -117,31 +120,26 @@
               <div class="task-info">
                 <h6 font-size="1.25rem">Zadaća 1</h6>
               </div>
-              <i class="bi bi-arrow-right task-arrow"></i>
             </a>
             <a href="../Motivation_Meme_Project/index.html" class="task-item">
               <div class="task-info">
                 <h6>Zadaća 2</h6>
               </div>
-              <i class="bi bi-arrow-right task-arrow"></i>
             </a>
             <a href="../vjezba_19_11_2025/vjezbaxx.html" class="task-item">
               <div class="task-info">
                 <h6 font-size="1.25rem">Zadaća 3</h6>
               </div>
-              <i class="bi bi-arrow-right task-arrow"></i>
             </a>
             <a href="../zadace/zadaca2.html" class="task-item">
               <div class="task-info">
                 <h6 font-size="1.25rem">Zadaća 4</h6>
               </div>
-              <i class="bi bi-arrow-right task-arrow"></i>
             </a>
             <a href="../zadace/zadaca5.html" class="task-item">
               <div class="task-info">
                 <h6 font-size="1.25rem">Zadaća 5</h6>
               </div>
-              <i class="bi bi-arrow-right task-arrow"></i>
             </a>
           </div>
         </div>
@@ -149,11 +147,46 @@
     </div>
   </section>
   <br><br><br>
-  <section class="section-pad text-center">
-    <div class="container">
-      <h2 class="section-title mb-3">Imate pitanje?</h2>
-      <a href="./zad2.html" class="btn btn-primary btn-lg px-5">Kontakt</a>
+  <section class="section-pad text-center" id="contact">
+
+<!-- contact form -->
+<div class="d-flex justify-content-center align-items-center min-vh-99">
+    <div class="row g-1 w-100 justify-content-center">
+        <div class="col-md-9 col-lg-8">
+            <h4 class="mb-3" style="font-size: 30px;">Kontaktirajte Nas!</h4>
+            <form class="needs-validation" novalidate="">
+                <div class="row g-3">
+                    <div class="col-sm-6">
+                        <label for="firstName" class="form-label" style="font-size: 30px;">Ime</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="Patrik" required="" style="font-size: 30px; height: 50px;">
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="lastName" class="form-label" style="font-size: 30px;">Prezime</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="Jagodar" required="" style="font-size: 30px; height: 50px;">
+                    </div>
+                    <div class="col-12">
+                        <label for="email" class="form-label" style="font-size: 30px;">E-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="vašmail@primjer.com" required="" style="font-size: 30px; height: 50px;">
+                    </div>
+                    <div class="col-12">
+                        <label for="dateSent" class="form-label" style="font-size: 30px;">Datum slanja</label>
+                        <input type="date" class="form-control" id="dateSent" name="date_sent" required="" style="font-size: 30px; height: 50px;">
+                    </div>
+                    <div class="col-12">
+                        <label for="message" class="form-label" style="font-size: 30px;">Poruka</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" placeholder="Vaša poruka..." required="" style="font-size: 30px;"></textarea>
+                    </div>
+                </div>
+                <hr class="my-4">
+                <div class="d-flex justify-content-center">
+                    <a href="./zad1.html" class="btn btn-primary btn-lg">Pošalji poruku</a>
+                </div>
+            </form>
+        </div>
     </div>
+</div>
+
+
   </section>
  <!-- FOOTER -->
     <div class="container">
